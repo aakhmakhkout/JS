@@ -1,0 +1,105 @@
+#box0{
+    background-color: rgb(14, 95, 71);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.para-normal {
+    color: yellow;
+    font-family:monospace;
+    font-size: 10px;
+}
+
+.para-dblclick {
+    font-size: 20px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.hoverondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: rgb(21, 255, 0);
+    color: rgb(153, 0, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:sans-serif;
+    transition: all 0.3s ease;
+}
+
+.txtbox {
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: rgb(78, 85, 85);
+    color: rgb(255, 251, 0);
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+}
+
+.txtbox2 {
+    width: 60px;
+    margin-bottom: 10px;
+    background-color: rgb(78, 85, 85);
+    color: rgb(0, 255, 191);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.txtboxevt {
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 148, 148);
+    color: rgb(241, 245, 8);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.div3 {
+    background-color: rgb(61, 61, 61);
+    padding: 20px;
+}
+
+.inpevtout {
+    width: 200px;
+    background-color: black;
+    color: purple;
+    padding:10px;
+    font-family:sans-serif;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+}

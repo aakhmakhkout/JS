@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling and Capturing</title>
+    <style>
+        .linethrough {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event Bubbling</h1>
+    <p>The event starts at the target element and then bubbles up through its parents. this is the default behavior of javascript <br><br>button → div → body → html → document
+</p>
+    <div id="main">
+        <div id="nav">
+            <div class="links">
+                <a href="../$$1lec.html">Page 1</a>
+                <a href="../$$2lec.html">Page 2</a>
+                <button>back to page 0</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="list">
+        <ul class="fruitlist">
+            <li>apple</li>
+            <li>grapes</li>
+            <li>banana</li>
+            <li>mango</li>
+            <li>orange</li>
+        </ul>
+    </div>
+    <h1>Event capturing</h1>
+    <p>Capturing means the event starts from the top of the DOM tree and moves downward toward the actual element you clicked. <br><br>document → html → body → div → button <br>
+        <code>document.querySelector("div").addEventListener(
+            "click",
+            () => console.log("DIV (capturing)"),
+            true   // ← enables capturing
+            );
+        </code>
+    </p>
+    
+    <div id="vegetable-list">
+        <ul class="veglist">
+            <li>Carrot</li>
+            <li>Tomato</li>
+            <li>Beans</li>
+            <li>Potato</li>
+            <li>Calliflower</li>
+        </ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

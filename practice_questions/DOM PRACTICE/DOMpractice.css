@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.hello {
+    width: 600px;
+    color: purple;
+    margin: 30px;
+    border: 2px solid red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.hello:hover {
+    background-color: yellow;
+}
+
+.boxes {
+     width: 600px;
+    color: rgb(251, 255, 0);
+    margin: 30px;
+    border: 2px solid red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.boxes:hover {
+    background-color: rgb(63, 7, 109);
+}
+
+.ques-2 {
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.ques-2-new {
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}

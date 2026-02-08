@@ -1,0 +1,46 @@
+<!--EVENTS in JS-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS in JS</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <!--* INLINE EVENT HANDLING-->
+    <button class="temp" onclick="console.log('button is working'); alert('hello');">click me</button>
+    <button class="temp" ondblclick="console.log('double click working');">click me 2 times</button>
+    <div class="hoverevent" onmouseover="console.log('gotchaaaaaa.........');">
+        hover over me
+    </div>
+
+    <!--* EXTERNAL EVENT HANDLING-->
+    <button id="btn1">Increment</button>
+
+
+    <div class="hoverevent2" id="div-hover">
+        hover over me
+    </div>
+
+    <!--* EVEN OBJECTS-->
+
+    <button id="evtobj">Event Object details</button>
+
+    <!--* addEventListerners-->
+
+    <div class="evtlis" id="evtlisdiv">
+        <img src="./picture1.jpg" alt="picture" class="img1" id="imgs">
+        <button class="evtlisbtn1" id="evtlisBtn1">change pic</button>
+        <button class="evtlisbtn2" id="evtlisBtn2">reset</button>
+    </div>
+
+    <!--* Toggle button - dark and normal mode-->
+
+    <button class="toggle" id="tglbtn">light Mode</button>
+
+
+    <script src="./$10Events.js"></script>
+</body>
+</html>

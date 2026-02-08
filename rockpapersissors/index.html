@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS GAME</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="heading">Rock Paper Scissors</div>
+    <div class="container">
+        <div class="icons">
+            <div id="Rock" class="choices"><img src="./rockimg.png " alt="rock" class="rockimg icons-hover"></div>
+            <div id="Paper" class="choices"><img src="./paperimg.png" alt="paper" class="paperimg icons-hover"></div>
+            <div id="Scissors" class="choices"><img src="./scissorimg.png" alt="scissors" class="scissorimg icons-hover"></div>
+        </div>
+    </div>
+    <div class="moves">
+        <div class="usrmove">
+            <input type="text" id="usermove" name="usermove" readonly value="Pick your move">
+        </div>
+        <div class="compmove">
+            <input type="text" id="computermove" name="computermove" readonly value="Computers move">
+        </div>
+    </div>
+
+    <div class="sepline">
+        <hr class="line">
+    </div>
+
+    <div class="scoreboard">
+        <div class="myscore">
+            <label for="usrscore" class="labels">Your Score</label>
+            <input type="text" id="usrscore" name="usrscore" readonly value="0">
+        </div>
+        <div class="compscore">
+             <label for="computerscore" class="labels">Computer Score</label>
+            <input type="text" id="computerscore" name="computerscore" readonly value="0">
+        </div>
+    </div>
+    
+
+    <div class="results">
+        <input type="text" class="result" readonly value="Result">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
