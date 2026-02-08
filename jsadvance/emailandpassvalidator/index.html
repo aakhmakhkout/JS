@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email and Password Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="maindiv">
+            <form id="form">
+                <h1>
+                    Email and Password Validator
+                </h1>
+
+                <div id="form-div">
+                    <div id="emaildiv">
+                        <label for="emailInp">Enter Email</label>
+                        <input type="email" name="email" id="emailInp" placeholder="noreply123@gmail.com" required>
+                        <p id="emailErrorMsg">Your email format is incorrect!</p>
+                    </div>
+                    
+                    <div id="passdiv"> 
+                        <label for="passInp">Enter Password</label>
+                        <input type="password" name="pass" id="passInp" placeholder="Hupx12@Yzfj" required>
+                        <p id="passErrorMsg">Your Password format is incorrect!</p>
+                    </div>
+                    <div id="showPassDiv">
+                        <button id="showpass">show password</button>
+                    </div>
+                </div>
+                
+                <div id="validate">
+                    <button id="validatebtn">Validate</button>
+                </div>
+
+                <div id="successmsg">
+                    <p>Your email and password are valid</p>
+                </div>
+                    
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
