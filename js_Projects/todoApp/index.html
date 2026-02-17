@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div id="container">
+        <div id="heading">
+            <h1>Todo</h1>
+        </div>
+        <div id="main">
+            <div id="addtask">
+                <h2>Write Task</h2>
+                <input type="text"  id="additem" maxlength="60" placeholder="write any task < 70 characters">
+                <button>ADD</button>
+            </div>
+            <hr>
+            <div id="taskcontainer">
+                <div id="tasks">
+                    <h3>Tasks</h3><hr>
+                    <div id="tasklist">
+                        <!-- <div class="eachTask">
+                            <div id="checkbox">
+                                <input type="checkbox" name="done" id="taskDone">
+                            </div>
+                            <div id="maintask">
+                                <p>task 1</p>
+                            </div>
+                            <div id="deletetask"><button>x</button></div>
+                        </div>
+                        <div class="eachTask">
+                            <div id="checkbox">
+                                <input type="checkbox" name="done" id="taskDone">
+                            </div>
+                            <div id="maintask">
+                                <p>task 1 Lorem ipsum dolor sit amet, consectetur adipisic</p>
+                            </div>
+                            <div id="deletetask"><button>x</button></div>
+                        </div> -->
+                    </div>
+                </div>
+                <div id="completedtasks"> 
+                    <h3>Completed Tasks</h3><hr>
+                    <div id="completedTasksection">
+                        <!-- <div class="completedtaskdiv">
+                            <p>completed task</p>
+                            <button>x</button>
+                        </div>
+                        <div class="completedtaskdiv">
+                            
+                            <p>completed task fdasfasdfdsafasfdsfagdasfgsagdffasdfasdfgasgasgd</p>
+                            <button>x</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
 </body>
 </html>
