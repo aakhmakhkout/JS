@@ -128,7 +128,7 @@ hr{
     align-items: center;
 }
 
-.eachTask > #checkbox > input{
+.eachTask > .checkbox > input{
     width: 20px;
     height: 20px;
     appearance: none;
@@ -137,7 +137,7 @@ hr{
     cursor: pointer;
     
 }
-.eachTask > #checkbox > input:checked{
+.eachTask > .checkbox > input:checked{
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -145,7 +145,7 @@ hr{
     accent-color: #be3ea7;
 }
 
-#maintask > p{
+.maintask > p{
     color: rgb(255, 251, 0);
     font-size: 20px;
     width: 400px;
@@ -153,7 +153,7 @@ hr{
 }
 
 
-#deletetask > button, .completedtaskdiv > button {
+.deletetask > button, .completedtaskdiv > button {
     outline: none;
     border: none;
     background: none;
@@ -164,7 +164,7 @@ hr{
     color:rgb(0, 0, 0);
     cursor: pointer;
 }
-#deletetask > button:hover, .completedtaskdiv > button:hover {
+.deletetask > button:hover, .completedtaskdiv > button:hover {
     background-color: #ff00f2;
 }
 
@@ -217,10 +217,10 @@ hr{
     #tasks, #completedtasks {
         width: 95%;
     } */
-     #maintask {
+     .maintask {
         width: 70%;
      }
-     #maintask > p {
+     .maintask > p {
         font-size: 12px;
         word-break: break-all;
      }
